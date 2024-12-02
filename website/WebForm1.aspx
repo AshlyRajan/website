@@ -5,15 +5,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <style type="text/css">
+   <style>
         body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background-color:aquamarine;
+  
 }
 
 .navi {
   overflow: hidden;
-  background-color: #333;
+  background-color:rosybrown;
 }
 
 .navi a {
@@ -30,7 +32,7 @@
   background-color: #04AA6D;
   color: white;
 }
-
+/*
 
 
 #slideshow {
@@ -55,7 +57,7 @@ position: relative;
 	
 	#slideshow img_inactive {
 		opacity: 0;
-	}
+	}*/
 
 	.footer {
    position: fixed;
@@ -63,7 +65,7 @@ position: relative;
    bottom: 0;
    width: 100%;
    background-color: papayawhip;
-   color: blue;
+   color:black;
    
    
 }
@@ -77,33 +79,38 @@ position: relative;
         <div>
             
             <div class="navi">
-     <img src="download.jpg" height="50" width="50" />           
-  <a class="active" href="about us.aspx">About us</a>
-  <a href="sginin.aspx">Sign in</a>
-  <a href="signup.aspx">Sign up</a>
-  <a href="contactus.aspx">Contact us</a>
+     <img src="download.jpg" height="50" width="50" />
+				<a href="signup.aspx">Contact us</a>
+				<a href="sginin.aspx">Sign in</a>
+				<a href="about us.aspx">About us</a>
+  <a class="active" href="about us.aspx">Home</a>
+				<h1 style="text-align:center" ><b>HELLO DESIGN</b></h1>
+   				   
 </div>
-                        			
+         <div>
+			 <table>
+				
+				  <th><td><img src="img_mountains_wide.jpg" alt="hello" class="active"></td></th>
+				
+				 <td>The About Us page of your website is an essential source of information for anyone who wants to know more about your business. It is where you showcase your history, the unique value of your work, your mission and vision, and the audiences you serve.</td>
+				 <%--<th><td><img src="img_nature_wide.jpg" alt="hello" class="active"></td></th>--%>
 
-            <div id="slideshow">
-<img src="download.jpg" alt="hii" class="active">
-<img src="img_mountains_wide.jpg" alt="hello" class="active">
-<img src="img_nature_wide.jpg" alt="good" class="active">
-<img src="img_snow_wide.jpg" alt="evg" class="active">
-<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-</div>
+			 </table>
+         </div>               			
+
+			
+			<br />
 		
         
 <div class="footer">
   
   
   
-  <p1 >Copyright © 2023 ashly. All Rights Reserved Privacy Policy</p1>
-	<p style="text-align:right">ADRESS</p>
-  <p style="text-align:right">kakkand</p>
-  <p style="text-align:right">ernakulam</p>
-  <p style="text-align:right">kerala</p>
+  <p style="text-align:center">Copyright © 2023 ashly. All Rights Reserved Privacy Policy</p>
+	<p style="text-align:center">ADRRESS</p>
+  <p style="text-align:center">kakkand</p>
+  <p style="text-align:center">ernakulam</p>
+  <p style="text-align:center">kerala</p>
 
 
         </div>
