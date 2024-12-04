@@ -44,6 +44,28 @@ function myFunction() {
 }
 </script>
          <div >Not a member?</label><a href="signup.aspx">Signup now</a></div>
+            </script>
+                
+        </div>
+    </form>
+    <script>
+
+
+
+        let x = document.getElementById("loginForm");
+        x.addEventListener("focus", myFocusFunction, true);
+        x.addEventListener("blur", myBlurFunction, true);
+
+        function myFocusFunction() {
+            document.getElementById("username").style.backgroundColor = "pink";
+            document.getElementById("password").style.backgroundColor = "pink";
+        }
+
+        function myBlurFunction() {
+            document.getElementById("username").style.backgroundColor = "";
+            document.getElementById("password").style.backgroundColor = "";
+        }
+    </script>
     
     </form>
   </div>

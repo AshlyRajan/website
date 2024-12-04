@@ -6,6 +6,7 @@
     <title>Registration Form</title>
     <link rel="stylesheet" type="text/css" href="regnform.css" />
     <script src="JavaScript.js"></script>
+    
 </head>
 <body style="background-color:lightgray">
     <form id="form1" runat="server">
@@ -52,6 +53,9 @@
             </div>
 
             <div>
+
+               
+
                 <label for="state">State:</label>
                 <select id="state" onchange="updateDistricts()">
                  <option value="">Select State</option>
@@ -59,12 +63,11 @@
                   <option value="Tamil Nadu">Tamil Nadu</option>
                   
                  </select>
-                <label for="district">District:</label>
+                
                <select id="district">
-                   <option value="">Select District</option>
-               <option value="">Select District</option>
+                <option value="">Select District</option>
                 </select>
-
+</div>
 
             <div>
                 <label for="username">Username:</label>
@@ -104,7 +107,7 @@ function myFunction() {
                 
         </div>
     </form>
-    <script>
+   <%-- <script>
         let x = document.getElementById("form1");
         x.addEventListener("focus", myFocusFunction, true);
         x.addEventListener("blur", myBlurFunction, true);
@@ -116,6 +119,6 @@ function myFunction() {
         function myBlurFunction() {
             document.getElementById("username").style.backgroundColor = "";
         }
-    </script>
+    </script>--%>
 </body>
 </html>

@@ -64,16 +64,15 @@
 <div class="footer">
    
      
-  
-  
-	<h ><u>Address</u></h>
-    <br />
-  <h>Kakkand</h><br />
-  <h>Ernakulam</h><br />
-  <h>Kerala</p>
-<h >Copyright © 2023 ashly. All Rights Reserved Privacy Policy</h>
-
-        </div>
+    <address>
+Hello design.<br> 
+Visit us at:www.hellodesigin.com<br>
+Box 564, Kakkand<br>
+Kerala
+</address>
+    <h >Copyright © 2023 hellodesign. All Rights Reserved Privacy Policy</h>
+   
+	
     </form>
 </body>
 </html>

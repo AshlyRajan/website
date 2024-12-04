@@ -7,10 +7,9 @@
             districts = ["Thiruvananthapuram", "Kollam", "Pathanamthitta", "Alappuzha", "Kottayam", "Idukki", "Ernakulam", "Thrissur", "Palakkad", "Malappuram", "Kozhikode", "Wayanad", "Kannur", "Kasargod"];
             break;
         case "Tamil Nadu":
-            districts = ["Chennai", "Coimbatore", "Tiruchirappalli", "Madurai"];
+            districts = ["Chennai", "Coimbatore", "Tiruchirappalli", "Madurai", "Tirunelveli", "Salem", "Erode", "Vellore", "Thoothukudi", "Dindigul", "Thanjavur", "Namakkal", "Karur", "Kumbakonam"];
             break;
-        
-        default:
+               default:
             districts = [];
     }
 
@@ -27,6 +26,8 @@
     districtSelect.style.display = "block";
 }
 
+
+
 function calculateAge() {
     var dob = document.getElementById('dob').value;
     var dobDate = new Date(dob);
@@ -38,16 +39,16 @@ function calculateAge() {
     }
     document.getElementById('age').innerHTML = age;
 }
-<script>
-    let x = document.getElementById("myForm");
-    x.addEventListener("focus", myFocusFunction, true);
-    x.addEventListener("blur", myBlurFunction, true);
+//<script>
+//    let x = document.getElementById("myForm");
+//    x.addEventListener("focus", myFocusFunction, true);
+//    x.addEventListener("blur", myBlurFunction, true);
 
-    function myFocusFunction() {
-        document.getElementById("myInput").style.backgroundColor = "yellow";  
-}
+//    function myFocusFunction() {
+//        document.getElementById("myInput").style.backgroundColor = "yellow";  
+//}
 
-    function myBlurFunction() {
-        document.getElementById("myInput").style.backgroundColor = "";  
-}
-</script>
+//    function myBlurFunction() {
+//        document.getElementById("myInput").style.backgroundColor = "";  
+//}
+//</script>
