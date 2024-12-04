@@ -9,7 +9,7 @@
         case "Tamil Nadu":
             districts = ["Chennai", "Coimbatore", "Tiruchirappalli", "Madurai"];
             break;
-               default:
+        default:
             districts = [];
     }
 
@@ -39,17 +39,3 @@ function calculateAge() {
     }
     document.getElementById('age').innerHTML = age;
 }
-
-// <% -- < script >
-//    let x = document.getElementById("form1");
-//x.addEventListener("focus", myFocusFunction, true);
-//x.addEventListener("blur", myBlurFunction, true);
-
-//function myFocusFunction() {
-//    document.getElementById("username").style.backgroundColor = "yellow";
-//}
-
-//function myBlurFunction() {
-//    document.getElementById("username").style.backgroundColor = "";
-//}
-//    </script > --%>

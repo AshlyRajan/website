@@ -76,6 +76,7 @@
     <Content Include="img_snow_wide.jpg" />
     <Content Include="instagram.png" />
     <Content Include="JavaScript.js" />
+    <Content Include="regjava.js" />
     <Content Include="regnform.css" />
     <Content Include="sginin.aspx" />
     <Content Include="signup.aspx" />

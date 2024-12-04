@@ -5,8 +5,8 @@
 <head runat="server">
     <title>Registration Form</title>
     <link rel="stylesheet" type="text/css" href="regnform.css" />
-    <script src="JavaScript.js"></script>
-    
+      
+    <script src="regjava.js"></script>
 </head>
 <body style="background-color:lightgray">
     <form id="form1" runat="server">
@@ -63,8 +63,9 @@
                   <option value="Tamil Nadu">Tamil Nadu</option>
                   
                  </select>
-                
+                 <label for="state">District:</label>
                <select id="district">
+                   <option value="">Select District</option>
                 <option value="">Select District</option>
                 </select>
 </div>
@@ -102,23 +103,11 @@ function myFunction() {
     txt = "You pressed Cancel!";
   }
   document.getElementById("demo").innerHTML = txt;
-}
-</script>
+    }
+    </script>
                 
         </div>
     </form>
-   <%-- <script>
-        let x = document.getElementById("form1");
-        x.addEventListener("focus", myFocusFunction, true);
-        x.addEventListener("blur", myBlurFunction, true);
-
-        function myFocusFunction() {
-            document.getElementById("username").style.backgroundColor = "yellow";
-        }
-
-        function myBlurFunction() {
-            document.getElementById("username").style.backgroundColor = "";
-        }
-    </script>--%>
+  
 </body>
 </html>
