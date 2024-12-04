@@ -71,6 +71,16 @@ Box 564, Kakkand<br>
 Kerala
 </address>
     <h >Copyright © 2023 hellodesign. All Rights Reserved Privacy Policy</h>
+    <div class="social-icons">
+                <a href="" target="_blank">
+                    <img src="instagram.png" alt="LinkedIn" class="icon" height="20px" width="20px">
+                </a>
+                <a href="" target="_blank">
+                    <img src="facebook.png" alt="GitHub" class="icon"height="20px" width="20px">
+                </a>
+                
+                
+            </div>
    
 	
     </form>
